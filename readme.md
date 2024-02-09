@@ -22,7 +22,7 @@ This project is a simple website for a media company showcasing its services, pr
 - **Social Media Integration**: Links to social media profiles are provided for users to connect with the company on different platforms.
 
 ## Installation
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `git clone Musyoka2020-eng/Media`
 2. Navigate to the project directory: `cd Media`
 
 ## Usage
