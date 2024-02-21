@@ -310,20 +310,9 @@ footer {
     margin-top: 50px;
 }
 
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-menu ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.footer-menu ul li a {
-    color: #fff;
-    text-decoration: none;
+.footer-social {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .footer-social ul li {
@@ -354,7 +343,8 @@ footer {
     }
 
     .menu ul li {
-        margin-right: 10px;
+        margin-right: 5px;
+        font-size: 10px;
     }
 
     main {
@@ -370,6 +360,11 @@ footer {
         margin: 0;
         width: 100%;
         text-align: center;
+    }
+
+    .hero-text h3 {
+        margin-top: 20px;
+        font-size: 2em;
     }
 
     .hero-image img {
@@ -401,17 +396,27 @@ footer {
         height: auto;
     }
 
+    .cta-content {
+        padding: 20px 0;
+    }
+
+    .cta-content h3 {
+        font-size: 1.5em;
+    }
+
     .contact-content {
         flex-direction: column;
     }
 
     .contact-form {
         margin-bottom: 10px;
+        flex: 1;
     }
 
     .contact-info {
         margin: 20px 0;
-        width: 100%;
+        padding: 20px;
+        flex: 1;
     }
 
     .contact-form input,
